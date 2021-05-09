@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 data
 res
+README.md
 __pycache__
 *DS_Store
 .vscode
