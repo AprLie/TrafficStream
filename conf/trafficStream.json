@@ -1,0 +1,53 @@
+{
+    "begin_year": 2011,
+    "end_year": 2017,
+    "dropout": 0.0,
+    "lr": 0.01,
+    "batch_size": 128,
+    "epoch": 100,
+    "gpuid": 1,
+    "loss": "mse",
+    "activation": "relu",
+    "scheduler": "epo",
+    "train": 1,
+    "y_len": 12,
+    "x_len": 12,
+    "data_process": 0,
+    "auto_test": 1,
+    "raw_data_path": "data/district3F11T17/finaldata/",
+    "save_data_path": "data/district3F11T17/FastData/",
+    "graph_path": "data/district3F11T17/graph/",
+    "model_path": "res/district3F11T17/",
+    "gcn":{
+        "in_channel": 12,
+        "out_channel": 12,
+        "hidden_channel": 64
+    },
+
+    "tcn":{
+        "in_channel": 1,
+        "out_channel": 1,
+        "kernel_size": 3,
+        "dilation": 1
+    },
+
+
+    "logname": "trafficStream",
+    
+
+    "strategy": "incremental",
+    "init": true,
+    "increase": true,
+    "num_hops": 2,
+    
+    "detect": true,
+    "detect_strategy": "feature",
+
+    "ewc": true,
+    "ewc_strategy": "ewc", 
+    "ewc_lambda": 0.0001,
+    
+    "replay": true,
+    "replay_strategy": "random",
+    "repaly_num_samples": 100
+}
