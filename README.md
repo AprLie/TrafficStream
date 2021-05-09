@@ -1,6 +1,6 @@
 # TrafficStream
 
-Code for *TrafficStream: A Streaming Traffic Flow Forecasting FrameworkBased on Graph Neural Networks and Continual Learning*（IJCAI 2021). TrafficStream is a streaming traffic flow forecasting framework based on Graph Neural Networks (GNNs) and Continual Learning (CL), achieving accurate predictions and high efficiency.
+Code for **TrafficStream: A Streaming Traffic Flow Forecasting FrameworkBased on Graph Neural Networks and Continual Learning**（IJCAI 2021). TrafficStream is a streaming traffic flow forecasting framework based on Graph Neural Networks (GNNs) and Continual Learning (CL), achieving accurate predictions and high efficiency.
 
 ### Requirements
 
@@ -9,12 +9,12 @@ Code for *TrafficStream: A Streaming Traffic Flow Forecasting FrameworkBased on 
 * torch-geometric = 1.6.3
 
 ```
-conda env create -f trafficStream.yaml`
+conda env create -f trafficStream.yaml
 ```
   
 ### Data
 
-Download raw data from (), unzip the file and put it in the `data` folder
+Download raw data from [this](https://drive.google.com/file/d/1P5wowSaNSWBNCK3mQwESp-G2zsutXc5S/view?usp=sharing), unzip the file and put it in the `data` folder
 
 ### Usages
 
